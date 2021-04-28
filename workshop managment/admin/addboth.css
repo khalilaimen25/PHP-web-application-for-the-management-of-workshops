@@ -1,0 +1,128 @@
+
+#body1{
+height: 110vh;
+}
+.form{
+  width: 500px;
+  margin-top:260px;
+  margin-right:50px;
+  float: right;}
+
+
+  .choix1{
+    margin-top: 10px;
+  }
+  .choix2{
+    float: left;
+  }
+
+  .text1{
+
+    height: 10px;
+    font-size:30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 40px;
+  }
+
+  .form{
+    width: 500px;
+    margin-top:60px;
+    margin-left:50px;
+    padding: 5px;
+    float: left;
+    background-color: rgba(79, 84, 91, 0.5);
+    border-radius: 5%;
+  }
+  .form2{
+    width: 500px;
+    margin-top:30px;
+    margin-left:20px;
+    padding: 5px;
+    float: left;
+    background-color: rgba(79, 84, 91, 0.5);
+    border-radius: 5%;
+  }
+  .form12{
+    margin-left:250px;margin-top: 90px;
+  }
+  .form13{
+    float: right;
+    margin-top: 60px;
+    padding-left:90px;
+  }
+  .aceuil{
+    float: right;
+  margin-right: 220px;
+  }
+  .aceuil button{
+    background: -moz-linear-gradient(top, #f4efef, #9e9c9c);
+    border: 3px solid #4f4f4f;
+    color:black;
+  }
+  input,select option {
+      height:20px;
+      width:300px;
+      padding:5px 8px;
+      font-size:15px;
+  }
+  select {
+    width: 330px;
+  }
+  button,#conex{
+    height:35px;
+    width:130px;
+    margin-top:15px;
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+      border: 1px solid #509111;
+      border-bottom: 1px solid #5b992b;
+      border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      box-shadow: inset 0 1px 0 0 #9fd574;
+      -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      -moz-transform:all 1s ease;
+       transition: all 1s ease;
+  }
+  button:hover, #conex:hover{
+      opacity:.85;
+      cursor: pointer;
+      -moz-transform:scale(10);
+       transform:scale(1.25);
+  }
+  .form:hover,.form2:hover,{
+    cursor: pointer;
+    background-color: rgba(0, 21, 75, 0.5);
+  }
+  #body1 .log:hover{
+    cursor: pointer;
+    background-color: rgba(0, 21, 75, 0.5);
+  }
+  .form:hover , .form2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 21, 75, 0.5);
+  }
+  label{
+    font-size:18px;
+    font-weight: bold;
+    text-shadow: #ffffff 1px 1px, #ffffff -1px 1px, #ffffff -1px -1px, #ffffff 1px -1px;
+  }
+  p{
+  font-size:20px;
+  font-size:20px;color:rgb(5, 71, 13);
+  text-shadow: 2px 2px 2px 2px white;
+  }
+  .alert{
+    color: red;font-weight: bold;font-size: 16px;
+  }
+    .at{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+
+  }

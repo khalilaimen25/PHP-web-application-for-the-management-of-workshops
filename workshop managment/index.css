@@ -1,0 +1,68 @@
+
+body{
+margin-left:100px;
+margin-right:100px;
+left: 0;right: 0;
+background-image: url(images/UnivConst2b.jpg);
+background-repeat: no-repeat;
+background-size:130%;
+background-position:center;
+}
+
+h1,h2{
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+header{
+  background-image:url(images/UnivCons2.jpg) ;background-position:center;
+  max-width:100%;
+  margin-top:0px;
+  text-align: center; color:white;
+  border:3px solid black;
+}
+#body1 {
+margin-top: -3px;
+height:100vh;
+background-color:white;
+background-image: url(images/UnivConst2bl.jpg);
+background-position: center;background-size: cover;
+border:3px solid;
+
+}
+
+
+.text{
+  position: fixed;
+  width:700px;
+  position:relative;left:18%;top: 70px;}
+
+.choix{
+  position: fixed;
+  width:660px ;
+  position: relative;left:18%;top:100px;
+}
+
+a {
+  margin-right:10px;
+}
+
+#zone{
+float: right;
+}
+#image{
+  height:200px;
+  width: 200px;
+  background-color:#dddddd;
+  border-radius: 50%;
+}
+#zone  img{
+   -moz-transform:all 1s ease;
+    transition: all 1s ease;
+}
+#zone:hover  img{
+  background-color: rgba(79, 84, 91, 0.5);
+  transform: rotate(180deg);
+	border-radius: 50%;
+   -moz-transform:scale(10);
+    transform:scale(1.25);
+}

@@ -1,0 +1,118 @@
+
+table tr:nth-child(2n){
+  background-color:#e5dede;
+}
+table tr:nth-child(2n+1){
+  background-color:#fff;
+}
+
+p{
+  font-size:30px;font-weight: bolder;
+}
+.retour{
+  width: 100%;
+  height:100%;
+  background-color: rgba(20, 49, 96, 0.5);
+  background: -moz-linear-gradient(top,#458af9, #144491);
+  border:2px #680000;
+  color:white;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+}
+.listatelier{
+  width: 100%;
+  height:100%;
+  background-color: rgba(193, 85, 13, 0.5);
+  background: -moz-linear-gradient(top,#e57022, #702f04);
+  border:2px #700000;
+    font-weight: bold;
+      color: #ffffff;text-align: center;
+    font-size:16px;
+}
+.trier{
+  width: 100%;
+  height:100%;
+  background-color: rgba(145, 12, 158, 0.5);
+  background: -moz-linear-gradient(top,#9b36b5, #681e7a);
+  border:2px #5f1c66;
+    font-weight: bold;text-align: center;
+    font-size:16px;  color: #ffffff;
+}
+.valider{
+  width: 100%;
+  height:100%;
+  background-color: rgba(60, 60, 60, 0.5);
+  background: -moz-linear-gradient(top, #68b12f, #50911e);
+  border:2px #50911e;
+
+    font-weight: bold;text-align: center;
+    font-size:16px;  color: #ffffff;
+}
+.validerexel{
+  width: 100%;
+  height:100%;
+  background-color: #2E662F;
+  background: -moz-linear-gradient(top, #2E662F, #1C6B1D);
+  border:2px #255525;
+
+    font-weight: bold;text-align: center;
+    font-size:16px;  color: #ffffff;
+  }
+input,select{
+  font-size:16px;
+  font-weight: bold;
+  width: 180px;
+
+}
+table{
+  border-top:none;
+
+}
+tr{
+  height: 30px;
+}
+table tr:hover{
+  background-color: rgba(58,160,176,0.7);
+  font-weight: bold;
+}
+td{
+padding: 0;width: auto;
+}
+.head td{
+  background-color:  rgba(238, 255, 0,0.9);font-weight: bold;
+}
+.a:focus {
+  background-color:  rgba(255, 198, 198, 0.8);
+}
+.add{
+  padding-left: 60px;font-size:18px;
+width: 100%;
+    height:35px;
+    background-color: rgba(60, 60, 60, 0.5);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+border:2px #50911e;
+      color: white;
+      word-spacing: 400px;
+      font-weight: bold;
+      text-align: left;
+
+}
+
+.del{
+    width: 100%;
+    height:100%;
+    background-color: rgba(11, 73, 13 0.5);
+    background: -moz-linear-gradient(top,#ba1212, #ad0000);
+    border:2px #680000;
+      color: white;
+      word-spacing: 5;
+      font-weight: bold;
+      text-align: center;
+}
+.wb{
+  background-color: #fff;
+  border-top: none;
+  border-right:none;
+  border-bottom:none;
+}

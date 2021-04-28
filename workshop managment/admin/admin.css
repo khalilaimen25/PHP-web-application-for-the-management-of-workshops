@@ -1,0 +1,128 @@
+.date{
+  float: right;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+li ul {display: none;}
+li:hover ul {display: block;position:absolute;background: none;}
+li:hover li {float: none;margin-bottom: 0px;}
+li:hover li a{float:none;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(79, 84, 91, 0.5);
+
+}
+.menu{
+  padding-left:20%;
+}
+
+
+ul:hover{
+  background-color: rgba(0, 21, 75, 0.5);
+}
+
+li {
+    float: left;
+    background-color: rgba(60, 60, 60, 0.5);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    border-bottom:3px solid #50911e;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+    margin: 0;
+
+}
+
+li a:hover {
+    background-color:#001d4c;
+    font-weight: bolder;
+}
+li:hover{
+  border-bottom:3px solid #ffffff;
+}
+.deconexion,.demande{
+  background-color: rgba(104, 0, 0, 0.5);
+  background: -moz-linear-gradient(top,#002d01, #0b490d);
+}
+.deconexion:hover{
+  background-color: rgba(11, 73, 13 0.5);
+  background: -moz-linear-gradient(top,#680000, #c11919);
+}
+.demande:hover{
+  background-color: rgba(60, 60, 60, 0.5);
+  background: -moz-linear-gradient(top,#875e05, #af7b0a);
+}
+
+.formulaire .form{
+  margin-top: 90px;
+}
+.formulaire{
+  margin-top: 90px;
+}
+#body2{
+height: 130vh;
+margin-top: -3px;
+background-color:white;
+background-image: url("http://localhost:2145/Projects/TP/mini-projet/images/UnivConst2bl.jpg");
+background-position: center;background-size: cover;
+border:3px solid;
+}
+
+  img:not(#image,#image2){
+    width: 400px;
+    float: left;
+    margin-top: 90px;
+    margin-left:130px;
+  }
+  #image
+  {
+    width:200px;
+    height: 200px;
+    background-color: rgba(29, 119, 38, 0.7);
+  }
+  .choix1{
+    margin-top: 10px;
+    margin-right:170px;
+    margin-top: 80px;
+  }
+  .text1{
+    height: 10px;
+    font-size:25px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom:5px;
+  }
+  h1{
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  }
+  #image2
+  {
+    width:200px;
+    height: 200px;
+    background-color: rgba(91, 17, 17, 0.7);
+    border-radius: 50%;
+  }
+  .choix2{
+    margin-top: 10px;
+    margin-right:360px;
+    margin-top: 80px;
+  }
+  .text2{
+    height: 10px;
+    font-size:25px;
+    text-align: center;
+    margin-top: 340px;
+  }
